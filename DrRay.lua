@@ -1,0 +1,9 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Main", "ImageIdHere")
+
+tab.newButton("Auto Lift Weight", "Prints Hello!", function()
+    print('Succesfully Started auto Lift weight!')
+end)
