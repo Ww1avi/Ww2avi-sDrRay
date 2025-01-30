@@ -4,6 +4,6 @@ local window = DrRayLibrary:Load("Ww2avi's Script", "Default")
 
 local tab = DrRayLibrary.newTab("Main", "ImageIdHere")
 
-tab.newButton("Auto Lift Weight", "Starts Auto Lift weight!",game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
-    print('Succesfully Started auto Lift weight!')
+tab.newButton("Auto Lift weight", "Starts Auto Lift Weight!", function(game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep"))
+    print('Hello!')
 end)
